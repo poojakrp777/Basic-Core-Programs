@@ -12,7 +12,7 @@ namespace Basic_core_Program
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1:Flipcoin \n2:\n3.\n4.Palindrome\n5.SumOfDigits\n6.ReverseWord\n7.PrimeNumber\n8.Factorial\n9.Swapping Number\n10.OddorEven");
+            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.\n4.Palindrome\n5.SumOfDigits\n6.ReverseWord\n7.PrimeNumber\n8.Factorial\n9.Swapping Number\n10.OddorEven");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -21,8 +21,8 @@ namespace Basic_core_Program
                     FlipCoin.flipcoin();
                     break;
                 case 2:
-                    Console.WriteLine("\t\t To Check given Year is Lear Year or Not : ");
-                    LeapYear.leapYear();
+                    Console.WriteLine("To Check given Year is Lear Year or Not : ");
+                    LeapYear.leapyear();
                     break;
                 //case 3:
                    
