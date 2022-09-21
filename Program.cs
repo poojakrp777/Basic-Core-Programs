@@ -12,7 +12,7 @@ namespace Basic_core_Program
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.Quotient and Remainder\n7.\n8.\n9.\n10.");
+            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.Quotient and Remainder\n7.Swap Number\n8.\n9.\n10.");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -41,7 +41,8 @@ namespace Basic_core_Program
                     QuotientNRemainder.quotientNreminder();
                     break;
                 case 7:
-                    
+                    Console.WriteLine("Swapping of Two Numbers is given as :");
+                    SwapNumber.SwappingNumber();
                     break;
                 //case 8:
                 //    //Factorial.FindFactorial();
