@@ -24,9 +24,10 @@ namespace Basic_core_Program
                     Console.WriteLine("To Check given Year is Lear Year or Not : ");
                     LeapYear.leapyear();
                     break;
-                //case 3:
-                   
-                //    break;
+                case 3:
+                    Console.WriteLine("Entered Number to print Power Of two ");
+                    Powerof2.powerOf2();
+                    break;
                 //case 4:
                     
                 //    break;
