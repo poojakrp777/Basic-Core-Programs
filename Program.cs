@@ -12,7 +12,7 @@ namespace Basic_core_Program
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.Quotient and Remainder\n7.Swap Number\n8.\n9.\n10.");
+            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.Quotient and Remainder\n7.Swap Number\n8.Odd or Even Number\n9.\n10.");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -44,18 +44,12 @@ namespace Basic_core_Program
                     Console.WriteLine("Swapping of Two Numbers is given as :");
                     SwapNumber.SwappingNumber();
                     break;
-                //case 8:
-                //    //Factorial.FindFactorial();
-                //    break;
-                //case 9:
-                //    //SwapNumber.SwappingNumber();
-                //    break;
-                //case 10:
-                //    //OddOrEven.Oddreven();
-                //    break;
+                case 8:
+                    OddOrEven.Oddreven();
+                    break;
 
                 default:
-                    //Console.WriteLine("Please enter number within range");
+                    Console.WriteLine("Please enter number within range");
                     break;
             }
             Console.ReadLine();
