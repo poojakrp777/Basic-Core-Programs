@@ -12,7 +12,7 @@ namespace Basic_core_Program
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.Quotient and Remainder\n7.Swap Number\n8.Odd or Even Number\n9.\n10.");
+            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.Quotient and Remainder\n7.Swap Number\n8.Odd or Even Number\n9.Vowels or Consonant\n10.Largest of  among three number");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -45,7 +45,12 @@ namespace Basic_core_Program
                     SwapNumber.SwappingNumber();
                     break;
                 case 8:
+                    Console.WriteLine("To check given number is Odd or Even is :");
                     OddOrEven.Oddreven();
+                    break;
+                case 9:
+                    Console.WriteLine("To check Output as Vowels and Consonant is : ");
+                    VowelOrConsonant.vowelsConsonants();
                     break;
 
                 default:
