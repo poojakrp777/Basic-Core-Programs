@@ -52,6 +52,10 @@ namespace Basic_core_Program
                     Console.WriteLine("To check Output as Vowels and Consonant is : ");
                     VowelOrConsonant.vowelsConsonants();
                     break;
+                case 10:
+                    Console.WriteLine("Largest number anong the three numbers is :");
+                    LargestNumber.largestNumber();
+                    break;
 
                 default:
                     Console.WriteLine("Please enter number within range");

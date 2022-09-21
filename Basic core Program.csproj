@@ -46,12 +46,15 @@
     <Compile Include="Factors.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="Harmonic.cs" />
+    <Compile Include="LargestNumber.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="OddOrEven.cs" />
     <Compile Include="Powerof2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuotientNRemainder.cs" />
     <Compile Include="SwapNumber.cs" />
+    <Compile Include="VowelOrConsonant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
