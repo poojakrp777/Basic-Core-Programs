@@ -12,7 +12,7 @@ namespace Basic_core_Program
         static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.\n6.\n7.\n8.\n9.\n10.");
+            Console.WriteLine("1:Flipcoin \n2:Leap Year \n3.Powerof2\n4.Harmonic Number \n5.Factors\n6.\n7.\n8.\n9.\n10.");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -29,12 +29,13 @@ namespace Basic_core_Program
                     Powerof2.powerOf2();
                     break;
                 case 4:
-                    Console.WriteLine("\t\t The Harmonic vaue of entered number is :");
+                    Console.WriteLine("The Harmonic vaue of entered number is :");
                     Harmonic.harmonic();
                     break;
-                //case 5:
-
-                //    break;
+                case 5:
+                    Console.WriteLine("Prime Factors of given number are :");
+                    Factors.factors();
+                    break;
                 //case 6:
 
                 //    break;
