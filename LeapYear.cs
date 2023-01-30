@@ -13,7 +13,7 @@ namespace Basic_core_Program
             Console.WriteLine("INPUT YEAR IN YYYY FORMAT :");
             int Y = Convert.ToInt32(Console.ReadLine());
 
-            if ((Y % 4 == 0) || (Y % 100 == 0))
+            if ((Y % 4 == 0) || (Y % 100 == 0)) 
             {
                 Console.WriteLine(Y + "" + "IS A LEAP YEAR");
 

@@ -16,7 +16,7 @@ namespace Basic_core_Program
             //prime numbers starts from 2 so i=2
             for (int i = 2; i * i <= a; i++)
             {
-                //
+                
                 while (a % i == 0)
                 {
                     Console.WriteLine(i);
